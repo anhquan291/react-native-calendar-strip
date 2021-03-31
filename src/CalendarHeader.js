@@ -62,7 +62,7 @@ class CalendarHeader extends Component {
 
     return `${
       monthFormatting.length > 1 ? firstDay.format(monthFormatting) : ""
-    } ${monthFormatting.length > 1 ? "/" : ""} ${lastDay.format(
+    } ${monthFormatting.length > 1 ? "-" : ""} ${lastDay.format(
       calendarHeaderFormat
     )}`;
   }
