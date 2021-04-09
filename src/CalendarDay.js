@@ -485,7 +485,10 @@ class CalendarDay extends Component {
           >
             {showDayName && (
               <Text
-                style={[{ fontSize: dateNameFontSize }, _dateNameStyle]}
+                style={[
+                        { fontSize: dateNameFontSize }, 
+                        _dateNameStyle, 
+                        {color:new Date().setHours(0,0,0,0) === new Date(date).setHours(0,0,0,0) ? '#fc9b3a' : selected ? highlightDateNameStyle.color : dateNameStyle.color}]}
                 allowFontScaling={allowDayTextScaling}
               >
                 {upperCaseDays ? date.format("ddd").toUpperCase() : date.format("ddd")}
@@ -496,7 +499,8 @@ class CalendarDay extends Component {
                 <Text
                   style={[
                     { fontSize: dateNumberFontSize },
-                    _dateNumberStyle
+                    _dateNumberStyle,
+                     {color:new Date().setHours(0,0,0,0) === new Date(date).setHours(0,0,0,0) ? '#fc9b3a' : selected ? highlightDateNumberStyle.color : dateNumberStyle.color}
                   ]}
                   allowFontScaling={allowDayTextScaling}
                 >
