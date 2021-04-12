@@ -361,7 +361,7 @@ class CalendarDay extends Component {
               baseDotStyle,
               { backgroundColor },
               markedDatesStyle,
-              { right: currentDate ? -4 : 0 },
+              // { right: currentDate ? -4 : 0 },
             ]}
           />
         );
