@@ -364,7 +364,8 @@ class CalendarDay extends Component {
               {
                 right: currentDate
                   ? -4
-                  : this.props.date.format('ddd') === 'T3' || 'T4'
+                  : this.props.date.format('ddd') === 'T3' ||
+                    this.props.date.format('ddd') === 'T4'
                   ? -3
                   : 0,
               },
