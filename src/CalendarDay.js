@@ -361,7 +361,13 @@ class CalendarDay extends Component {
               baseDotStyle,
               { backgroundColor },
               markedDatesStyle,
-              { right: currentDate ? -4 : this.props.date.format('ddd') === 'T3' ? -3 : 0 },
+              {
+                right: currentDate
+                  ? -4
+                  : this.props.date.format('ddd') === 'T3' || 'T4'
+                  ? -3
+                  : 0,
+              },
             ]}
           />
         );
