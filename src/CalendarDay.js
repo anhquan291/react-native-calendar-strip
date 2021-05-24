@@ -535,6 +535,7 @@ class CalendarDay extends Component {
               _dateViewStyle,
               dayContainerStyle,
               {
+                borderWidth: 0,
                 borderColor: isCurrentDate ? '#fc9b3a' : '#66bd78',
               },
             ]}
@@ -545,11 +546,12 @@ class CalendarDay extends Component {
                   { fontSize: dateNameFontSize },
                   _dateNameStyle,
                   {
-                    color: isCurrentDate
-                      ? '#fc9b3a'
-                      : selected
-                      ? highlightDateNameStyle.color
-                      : dateNameStyle.color,
+                    color:
+                      // isCurrentDate
+                      //   ? '#fc9b3a'
+                      selected
+                        ? highlightDateNameStyle.color
+                        : dateNameStyle.color,
                   },
                 ]}
                 allowFontScaling={allowDayTextScaling}
@@ -566,11 +568,13 @@ class CalendarDay extends Component {
                     { fontSize: dateNumberFontSize },
                     _dateNumberStyle,
                     {
-                      color: isCurrentDate
-                        ? '#fc9b3a'
-                        : selected
-                        ? highlightDateNumberStyle.color
-                        : dateNumberStyle.color,
+                      color:
+                        // isCurrentDate
+                        //   ? '#fc9b3a'
+                        //   :
+                        selected
+                          ? highlightDateNumberStyle.color
+                          : dateNumberStyle.color,
                     },
                   ]}
                   allowFontScaling={allowDayTextScaling}

@@ -61,10 +61,10 @@ export default StyleSheet.create({
     textAlign: 'center',
   },
   dot: {
-    width: 6,
-    height: 6,
+    width: 4,
+    height: 4,
     marginTop: 1,
-    borderRadius: 5,
+    borderRadius: 2,
     opacity: 0,
   },
 
