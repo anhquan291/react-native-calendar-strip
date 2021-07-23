@@ -74,7 +74,7 @@ export default StyleSheet.create({
     justifyContent: 'center',
     position: 'absolute',
     bottom: -4,
-    left: 4.8,
+    left: 6,
   },
   visibleDot: {
     opacity: 1,
