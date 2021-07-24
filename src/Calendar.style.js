@@ -10,16 +10,16 @@ export default StyleSheet.create({
     overflow: 'hidden',
   },
   datesStrip: {
-    flexDirection: 'row',
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'space-between',
+    // flexDirection: "row",
+    // alignItems: "center",
+    // justifyContent: "space-between",
   },
   calendarDates: {
     flex: 1,
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
+    // flexDirection: "row",
+    // justifyContent: "center",
+    // alignItems: "center",
   },
   calendarHeader: {
     textAlign: 'center',
@@ -61,10 +61,10 @@ export default StyleSheet.create({
     textAlign: 'center',
   },
   dot: {
-    width: 4,
-    height: 4,
+    width: 6,
+    height: 6,
     marginTop: 1,
-    borderRadius: 2,
+    borderRadius: 3,
     opacity: 0,
   },
 
@@ -73,8 +73,8 @@ export default StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     position: 'absolute',
-    bottom: -4,
-    left: 6,
+    bottom: -6.5,
+    left: 5,
   },
   visibleDot: {
     opacity: 1,
