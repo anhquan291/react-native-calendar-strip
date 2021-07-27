@@ -61,8 +61,8 @@ export default StyleSheet.create({
     textAlign: 'center',
   },
   dot: {
-    width: 6,
-    height: 6,
+    width: 5,
+    height: 5,
     marginTop: 1,
     borderRadius: 3,
     opacity: 0,
