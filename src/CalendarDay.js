@@ -525,6 +525,7 @@ class CalendarDay extends Component {
     } else {
       day = (
         <TouchableOpacity
+          activeOpacity={0.8}
           onPress={onDateSelected.bind(this, date)}
           disabled={!enabled}
         >
