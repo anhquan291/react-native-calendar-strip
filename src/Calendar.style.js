@@ -70,8 +70,8 @@ export default StyleSheet.create({
 
   // CALENDAR DOTS
   dotsContainer: {
-    flexDirection: 'row',
-    justifyContent: 'center',
+    // flexDirection: 'row',
+    // justifyContent: 'center',
     position: 'absolute',
     bottom: -6.5,
     left: 5,
