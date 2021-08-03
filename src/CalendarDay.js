@@ -525,6 +525,10 @@ class CalendarDay extends Component {
           activeOpacity={0.8}
           onPress={onDateSelected.bind(this, date)}
           disabled={!enabled}
+          style={{
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}
         >
           <View
             style={[
@@ -579,10 +583,10 @@ class CalendarDay extends Component {
                 >
                   {date.date()}
                 </Text>
-                {this.renderMarking()}
               </View>
             )}
           </View>
+          {this.renderMarking()}
         </TouchableOpacity>
       );
     }

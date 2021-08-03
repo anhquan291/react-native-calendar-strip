@@ -72,9 +72,8 @@ export default StyleSheet.create({
   dotsContainer: {
     flexDirection: 'row',
     justifyContent: 'center',
-    marginTop: 1,
-    // position: 'absolute',
-    // bottom: -6.5,
+    position: 'absolute',
+    bottom: 3,
     // left: 5,
   },
   visibleDot: {
