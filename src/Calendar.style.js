@@ -73,7 +73,7 @@ export default StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     position: 'absolute',
-    bottom: 3,
+    bottom: 2,
     // left: 5,
   },
   visibleDot: {
