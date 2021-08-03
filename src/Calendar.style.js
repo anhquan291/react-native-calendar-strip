@@ -70,11 +70,12 @@ export default StyleSheet.create({
 
   // CALENDAR DOTS
   dotsContainer: {
-    // flexDirection: 'row',
-    // justifyContent: 'center',
-    position: 'absolute',
-    bottom: -6.5,
-    left: 5,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginTop: 1,
+    // position: 'absolute',
+    // bottom: -6.5,
+    // left: 5,
   },
   visibleDot: {
     opacity: 1,
